@@ -7,8 +7,8 @@ var newEdge;
 
 
 
-var createTable = require('./createTable.js');
-var isLegitEdge = require('./isLegitEdge.js');
+let createTable = require('./createTable.js');
+let isLegitEdge = require('./isLegitEdge.js');
 
 function handleClick(e){
   var activeElements = document.querySelectorAll(".active");
